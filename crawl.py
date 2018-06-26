@@ -10,10 +10,10 @@ import requests
 import os, os.path,csv
 
 
-access_token="1002134885618733056-VXe11W6ajSBz9PzaAG4jPSqAsFEoKb"
-access_token_secret="kz14W983NwBxGypd529vSQHffi4MARfrDovS0NfJ2clO0"
-consumer_key="IL5kOm7MQeY8PmoNQ9lNTgh5R"
-consumer_secret="TVnghOQQvJnj5R0pU9GrcZP7lZyx8r4kkmpXlU8m5w8nca8UkA"
+access_token=""
+access_token_secret="
+consumer_key=""
+consumer_secret=""
 
 
 

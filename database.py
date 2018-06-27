@@ -10,10 +10,10 @@ import os, os.path,csv
 
 
 
-access_token="1002134885618733056-VXe11W6ajSBz9PzaAG4jPSqAsFEoKb"
-access_token_secret="kz14W983NwBxGypd529vSQHffi4MARfrDovS0NfJ2clO0"
-consumer_key="IL5kOm7MQeY8PmoNQ9lNTgh5R"
-consumer_secret="TVnghOQQvJnj5R0pU9GrcZP7lZyx8r4kkmpXlU8m5w8nca8UkA"
+access_token=""
+access_token_secret=""
+consumer_key=""
+consumer_secret=""
 
 
 
@@ -22,10 +22,10 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 
-connection =  MySQLdb.connect(host= "localhost",
-    user="dell",
-    passwd="1234678",
-    db="twitter")
+connection =  MySQLdb.connect(host= ",
+    user="",
+    passwd="",
+    db="")
 cursor = connection.cursor()
 
 # The table schema: CREATE TABLE tweets (id INT PRIMARY KEY AUTO_INCREMENT, tweet_id BIGINT NOT NULL, tweet_text VARCHAR(160) NOT NULL, screen_name VARCHAR(160) NOT NULL, author_id BIGINT, created_at DATETIME NOT NULL, inserted_at DATETIME NOT NULL)
